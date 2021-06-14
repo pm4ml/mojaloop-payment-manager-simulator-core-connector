@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.modusbox</groupId>
         <artifactId>mojaloop-simulator-core-connector</artifactId>
-        <version>1.4.0</version>
+        <version>1.4.1</version>
     </parent>
 
     <artifactId>client-adapter</artifactId>
@@ -83,6 +83,11 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-bean-validator</artifactId>
+            <version>${camel.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-http</artifactId>
             <version>${camel.version}</version>
         </dependency>
 
