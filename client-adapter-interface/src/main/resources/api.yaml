@@ -845,6 +845,9 @@ components:
         idValue:
           type: string
           description: The identifier string used to identify the sender.
+        fspId:
+          type: string
+          description:
         displayName:
           type: string
           description: Display name of the sender, if known.
