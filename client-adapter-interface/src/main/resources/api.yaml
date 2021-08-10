@@ -691,6 +691,8 @@ components:
         expiration:
           $ref: '#/components/schemas/timestamp'
           description: An optional deadline for responding to the quote request.
+        extensionList:
+          $ref: '#/components/schemas/extensionList'
 
     quoteResponse:
       type: object
